@@ -1,2 +1,2 @@
 spring.cloud.config.enabled: false
-eureka.client.enabled: false
+consul.client.enabled: false
