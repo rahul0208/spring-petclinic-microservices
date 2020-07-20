@@ -15,6 +15,8 @@
  */
 package org.springframework.samples.petclinic.vets;
 
+import com.ecwid.consul.v1.ConsulClient;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -32,4 +34,10 @@ public class VetsServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(VetsServiceApplication.class, args);
 	}
+
+    @Autowired
+    ConsulClient  consulClient;
+
+
+
 }
