@@ -1,4 +1,4 @@
-package org.springframework.samples.petclinic.vets.system;
+package org.springframework.samples.petclinic.visits;
 
 import com.ecwid.consul.v1.ConsulClient;
 import com.ecwid.consul.v1.Response;
