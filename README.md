@@ -1,6 +1,7 @@
 # Distributed version of the Spring PetClinic Sample Application built with Spring Cloud 
 
 [![Build Status](https://travis-ci.org/spring-petclinic/spring-petclinic-microservices.svg?branch=master)](https://travis-ci.org/spring-petclinic/spring-petclinic-microservices/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frahul0208%2Fspring-petclinic-microservices.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frahul0208%2Fspring-petclinic-microservices?ref=badge_shield)
 
 This microservices branch was initially derived from [AngularJS version](https://github.com/spring-petclinic/spring-petclinic-angular1) to demonstrate how to split sample Spring application into [microservices](http://www.martinfowler.com/articles/microservices.html).
 To achieve that goal we use Spring Cloud Gateway, Spring Cloud Circuit Breaker, Spring Cloud Config, Spring Cloud Sleuth, Resilience4j, Micrometer 
@@ -141,3 +142,7 @@ For pull requests, editor preferences are available in the [editor config](.edit
 
 [Configuration repository]: https://github.com/spring-petclinic/spring-petclinic-microservices-config
 [Spring Boot Actuator Production Ready Metrics]: https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-metrics.html
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frahul0208%2Fspring-petclinic-microservices.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frahul0208%2Fspring-petclinic-microservices?ref=badge_large)
